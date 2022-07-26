@@ -1,0 +1,132 @@
+body {
+  background-color: #f0f8ff;
+  padding-bottom: 500px;
+}
+
+form {
+  border: black;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(AlexBrush-Regular.TTF);
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Merienda";
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Merienda";
+}
+
+.h4 {
+  font-family: "Merienda";
+  color: black;
+}
+
+button,
+input {
+  text-align: center;
+  position: relative;
+}
+
+.titleContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.button.block {
+  display: block;
+  width: 200px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.center {
+  border-style: groove;
+  border: solid rgb(255, 255, 255) 2px;
+  font-family: myFirstFont;
+  src: url(AlexBrush-Regular.TTF);
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  max-width: 100%;
+  max-height: 20%;
+  object-fit: cover;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue;
+  color: #000000;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  grid-column: auto;
+  border: 10px;
+  margin-top: 50px;
+  justify-items: center;
+}
+
+.card-title {
+  border: 20px;
+}
+.button {
+  grid-gap: 10px;
+  width: 50px;
+}
+
+.card {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(300px, 50%, 800px);
+}
+
+.container-sm {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.col-md {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: initial;
+}
